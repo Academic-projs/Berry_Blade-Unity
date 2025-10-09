@@ -1,0 +1,62 @@
+{
+    "name": "player",
+    "maps": [
+        {
+            "name": "Player RightHand",
+            "id": "1cf6f279-94aa-478d-ab33-1477ab82b7dc",
+            "actions": [
+                {
+                    "name": "fire",
+                    "type": "Value",
+                    "id": "26d54d43-fe8e-41b1-bc97-050b3d765198",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4dc5e105-90bc-415d-83b8-637108283903",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player LeftHand",
+            "id": "e881dfe8-6aa4-416c-bf31-28771badc4c1",
+            "actions": [
+                {
+                    "name": "fire",
+                    "type": "Value",
+                    "id": "08768bb8-3ab5-486e-a712-eb7b3eb1fe08",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "64f00270-70e2-4cb9-97cc-2070c227c803",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
